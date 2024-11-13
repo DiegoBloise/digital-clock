@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://picsum.photos/1920/1080");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.clock-container {
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10px 0;
+}
+
+.clock {
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}
